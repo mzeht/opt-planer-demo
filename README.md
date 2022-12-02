@@ -40,6 +40,7 @@ return constraintFactory.from(DayTimeSoltPo.class)
 }
 `
 
+某个时段需求人力15，排了0.9即一个客服，没有继续往上排
 
 computeShiftFmtGap:need=15.00,planed=0.90,gapScore=94.00
 [pool-1-thread-1] c.e.t.domain.TableConstraintProvider     : computeShiftFmtGap:need=16.00,planed=0.90,gapScore=94.00
